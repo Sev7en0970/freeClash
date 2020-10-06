@@ -47,6 +47,13 @@ proxies:
   - {name: "🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]", server: aga.franxx.live, port: 20004, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]", server: 156.253.71.123, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]", server: 183.240.139.218, port: 20001, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾 Hinet 1 台区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hinet1, ws-headers: {Host: v2.freeairport.top}}
+  - {name: 🇨🇳 台湾 Hinet 2 台区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hinet2, ws-headers: {Host: v2.freeairport.top}}
+  - {name: 🇯🇵 日本 NHN 1 日区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /nhnjp1, ws-headers: {Host: v2.freeairport.top}}
+  - {name: 🇯🇵 日本 NHN 2 日区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /nhnjp2, ws-headers: {Host: v2.freeairport.top}}
+  - {name: 🇯🇵 日本 NHN 5 日区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /nhnjp5, ws-headers: {Host: v2.freeairport.top}}
+  - {name: 🇭🇰 香港 Azure 1, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /azhk1, ws-headers: {Host: v2.freeairport.top}}
+  - {name: 🇭🇰 香港 Azure 2, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /azhk2, ws-headers: {Host: v2.freeairport.top}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -95,6 +102,13 @@ proxy-groups:
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
       - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
       - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇨🇳 台湾 Hinet 1 台区流媒体
+      - 🇨🇳 台湾 Hinet 2 台区流媒体
+      - 🇯🇵 日本 NHN 1 日区流媒体
+      - 🇯🇵 日本 NHN 2 日区流媒体
+      - 🇯🇵 日本 NHN 5 日区流媒体
+      - 🇭🇰 香港 Azure 1
+      - 🇭🇰 香港 Azure 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -142,6 +156,13 @@ proxy-groups:
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
       - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
       - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇨🇳 台湾 Hinet 1 台区流媒体
+      - 🇨🇳 台湾 Hinet 2 台区流媒体
+      - 🇯🇵 日本 NHN 1 日区流媒体
+      - 🇯🇵 日本 NHN 2 日区流媒体
+      - 🇯🇵 日本 NHN 5 日区流媒体
+      - 🇭🇰 香港 Azure 1
+      - 🇭🇰 香港 Azure 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -190,6 +211,13 @@ proxy-groups:
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
       - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
       - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇨🇳 台湾 Hinet 1 台区流媒体
+      - 🇨🇳 台湾 Hinet 2 台区流媒体
+      - 🇯🇵 日本 NHN 1 日区流媒体
+      - 🇯🇵 日本 NHN 2 日区流媒体
+      - 🇯🇵 日本 NHN 5 日区流媒体
+      - 🇭🇰 香港 Azure 1
+      - 🇭🇰 香港 Azure 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -237,6 +265,13 @@ proxy-groups:
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
       - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
       - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇨🇳 台湾 Hinet 1 台区流媒体
+      - 🇨🇳 台湾 Hinet 2 台区流媒体
+      - 🇯🇵 日本 NHN 1 日区流媒体
+      - 🇯🇵 日本 NHN 2 日区流媒体
+      - 🇯🇵 日本 NHN 5 日区流媒体
+      - 🇭🇰 香港 Azure 1
+      - 🇭🇰 香港 Azure 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -284,6 +319,13 @@ proxy-groups:
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
       - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
       - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇨🇳 台湾 Hinet 1 台区流媒体
+      - 🇨🇳 台湾 Hinet 2 台区流媒体
+      - 🇯🇵 日本 NHN 1 日区流媒体
+      - 🇯🇵 日本 NHN 2 日区流媒体
+      - 🇯🇵 日本 NHN 5 日区流媒体
+      - 🇭🇰 香港 Azure 1
+      - 🇭🇰 香港 Azure 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -331,6 +373,13 @@ proxy-groups:
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
       - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
       - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇨🇳 台湾 Hinet 1 台区流媒体
+      - 🇨🇳 台湾 Hinet 2 台区流媒体
+      - 🇯🇵 日本 NHN 1 日区流媒体
+      - 🇯🇵 日本 NHN 2 日区流媒体
+      - 🇯🇵 日本 NHN 5 日区流媒体
+      - 🇭🇰 香港 Azure 1
+      - 🇭🇰 香港 Azure 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -379,6 +428,13 @@ proxy-groups:
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
       - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
       - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇨🇳 台湾 Hinet 1 台区流媒体
+      - 🇨🇳 台湾 Hinet 2 台区流媒体
+      - 🇯🇵 日本 NHN 1 日区流媒体
+      - 🇯🇵 日本 NHN 2 日区流媒体
+      - 🇯🇵 日本 NHN 5 日区流媒体
+      - 🇭🇰 香港 Azure 1
+      - 🇭🇰 香港 Azure 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -443,6 +499,13 @@ proxy-groups:
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
       - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
       - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇨🇳 台湾 Hinet 1 台区流媒体
+      - 🇨🇳 台湾 Hinet 2 台区流媒体
+      - 🇯🇵 日本 NHN 1 日区流媒体
+      - 🇯🇵 日本 NHN 2 日区流媒体
+      - 🇯🇵 日本 NHN 5 日区流媒体
+      - 🇭🇰 香港 Azure 1
+      - 🇭🇰 香港 Azure 2
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
