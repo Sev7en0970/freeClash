@@ -12,132 +12,41 @@ proxies:
   - {name: 🇭🇰 香港◆HKT 03 PPCW Netflix 1x, server: 202.81.237.172, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.81.237.172}}
   - {name: 🇭🇰 香港◆HKT 04 PPCW Netflix 1x, server: 202.81.237.156, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.81.237.156}}
   - {name: 🇭🇰 香港◆HKT 05 PPCW Netflix 1x, server: 202.81.237.162, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.81.237.162}}
+  - {name: 🇸🇬 新加坡A | 基础x1, server: 183.232.228.126, port: 30580, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 新加坡B | 基础x1, server: 183.232.228.126, port: 30590, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇯🇵 日本B | 基础x1, server: sqcu1.beervm.xyz, port: 20730, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇲 美国 加州 | 基础x1.5, server: 183.232.228.126, port: 30630, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇲 美国 圣何塞 | 基础x1, server: 183.232.228.126, port: 30570, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: baidu.com}}
+  - {name: 🇺🇲 美国 洛杉矶 | 基础x1, server: 183.232.228.126, port: 30600, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇰🇷 韩国A | 基础x1, server: 183.232.228.126, port: 30610, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr.huagee.xyz}}
+  - {name: 🇭🇰 香港B | 基础x1.5, server: 183.232.228.126, port: 30560, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix", server: iepl-szhk1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /iepl/szhk1/hk2, ws-headers: {Host: iepl-szhk1.racernet.link}}
+  - {name: 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray, server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/de1, ws-headers: {Host: ctsh2.racernet.link}}
+  - {name: "🇯🇵 【VIP】上海电信-日本 #2|Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/jp2, ws-headers: {Host: ctsh2.racernet.link}}
+  - {name: "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/us5, ws-headers: {Host: ctsh2.racernet.link}}
+  - {name: "🇭🇰 【VIP】上海电信➜香港 #1 Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk2, ws-headers: {Host: ctsh2.racernet.link}}
+  - {name: "🇭🇰 【VIP】上海电信➜香港 #3|Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk3, ws-headers: {Host: ctsh2.racernet.link}}
+  - {name: 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix, server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk1, ws-headers: {Host: ctsh2.racernet.link}}
+  - {name: "🇮🇳 【VIP】徐州联通➜印度 #1", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/in1, ws-headers: {Host: cuxz1.racernet.link}}
+  - {name: 🇩🇪 【VIP】徐州联通➜德国|Netflix, server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/de1, ws-headers: {Host: cuxz1.racernet.link}}
+  - {name: "🇯🇵 【VIP】徐州联通➜日本 #1|Netflix", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/jp1, ws-headers: {Host: cuxz1.racernet.link}}
+  - {name: "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/jp2, ws-headers: {Host: cuxz1.racernet.link}}
+  - {name: "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/us5, ws-headers: {Host: cuxz1.racernet.link}}
+  - {name: "🇭🇰 【VIP】河南移动➜香港 #3|Netflix", server: cmhn1.racernet.link, port: 15443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cm/hn1/hk3, ws-headers: {Host: cmhn1.racernet.link}}
+  - {name: "🇺🇲 【VIP】美国-GIA #1|V2ray", server: us4.racernet.link, port: 443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: us4.racernet.link}}
+  - {name: "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix", server: hk3.racernet.link, port: 443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: hk3.racernet.link}}
+  - {name: 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix, server: hk2.racernet.link, port: 443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: hk2.racernet.link}}
+  - {name: "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray", server: us2.racernet.link, port: 443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /eewgzpep, ws-headers: {Host: us2.racernet.link}}
   - {name: "🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]", server: aga.franxx.live, port: 20005, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
+  - {name: "🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]", server: 178.128.81.84, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]", server: 183.240.139.218, port: 20002, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false}
   - {name: "🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]", server: aga.franxx.live, port: 20007, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]", server: 122.192.189.40, port: 10112, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]", server: aga.franxx.live, port: 20008, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]", server: 45.77.217.210, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]", server: 85.208.155.249, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]", server: 85.208.155.174, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
+  - {name: "🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]", server: 23.99.107.90, port: 30726, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]", server: aga.franxx.live, port: 20006, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]", server: aga.franxx.live, port: 20004, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]", server: 42.200.69.155, port: 27522, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]", server: 156.253.71.123, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]", server: 183.240.139.218, port: 20001, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false}
-  - {name: "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix", server: iepl-szhk1.racernet.link, port: 10443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /iepl/szhk1/hk2, ws-headers: {Host: iepl-szhk1.racernet.link}}
-  - {name: "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix", server: iepl-szhk1.racernet.link, port: 10443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /iepl/szhk1/hk3, ws-headers: {Host: iepl-szhk1.racernet.link}}
-  - {name: 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray, server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/de1, ws-headers: {Host: ctsh2.racernet.link}}
-  - {name: "🇯🇵 【VIP】上海电信-日本 #2|Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/jp2, ws-headers: {Host: ctsh2.racernet.link}}
-  - {name: "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/us5, ws-headers: {Host: ctsh2.racernet.link}}
-  - {name: "🇭🇰 【VIP】上海电信➜香港 #1 Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk2, ws-headers: {Host: ctsh2.racernet.link}}
-  - {name: "🇭🇰 【VIP】上海电信➜香港 #3|Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk3, ws-headers: {Host: ctsh2.racernet.link}}
-  - {name: 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix, server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk1, ws-headers: {Host: ctsh2.racernet.link}}
-  - {name: "🇮🇳 【VIP】徐州联通➜印度 #1", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/in1, ws-headers: {Host: cuxz1.racernet.link}}
-  - {name: 🇩🇪 【VIP】徐州联通➜德国|Netflix, server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/de1, ws-headers: {Host: cuxz1.racernet.link}}
-  - {name: "🇯🇵 【VIP】徐州联通➜日本 #1|Netflix", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/jp1, ws-headers: {Host: cuxz1.racernet.link}}
-  - {name: "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/jp2, ws-headers: {Host: cuxz1.racernet.link}}
-  - {name: "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/us5, ws-headers: {Host: cuxz1.racernet.link}}
-  - {name: "🇭🇰 【VIP】河南移动➜香港 #3|Netflix", server: cmhn1.racernet.link, port: 15443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cm/hn1/hk3, ws-headers: {Host: cmhn1.racernet.link}}
-  - {name: "🇺🇲 【VIP】美国-GIA #1|V2ray", server: us4.racernet.link, port: 443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: us4.racernet.link}}
-  - {name: "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix", server: hk3.racernet.link, port: 443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: hk3.racernet.link}}
-  - {name: 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix, server: hk2.racernet.link, port: 443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: hk2.racernet.link}}
-  - {name: "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray", server: us2.racernet.link, port: 443, type: vmess, uuid: 14137cd3-0148-3476-9324-2abd40f66eda, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /eewgzpep, ws-headers: {Host: us2.racernet.link}}
-  - {name: 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s69.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz, server: 71866e459dd4b4c307aa75b5c9c6d8a2.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s61.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz, server: s60.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s60.snode.xyz}}
-  - {name: 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz, server: 9efede7af382b243af2de71d7faad3a7.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s186.haierzykt.top}}
-  - {name: 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz, server: 23ee5e5a585a14b684f9e505ae250bfa.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s208.xiaojiao.org.cn}}
-  - {name: 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz, server: s45.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s45.snode.xyz}}
-  - {name: 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz, server: s295.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s295.snode.xyz}}
-  - {name: 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz, server: 9efede7af382b243af2de71d7faad3a7.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas42.haierzykt.top}}
-  - {name: 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz, server: 1e7d23e04ff0bd90d17de91870b642cf.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s170.haierzykt.top}}
-  - {name: 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz, server: 69c6bae5841f4db6e846f640eb844798.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas214.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz, server: 02705c5c4de80893db1c7042495ae906.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s94.xiaojiao.org.cn}}
-  - {name: 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz, server: cd3e3dd05a1bda5ed3ecd2d0a871ca37.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s48.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz, server: s71.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s71.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz, server: bcbeb7f4d075c3e2d527a2345c9f8913.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s283.xiaojiao.org.cn}}
-  - {name: 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz, server: bcbeb7f4d075c3e2d527a2345c9f8913.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s93.xiaojiao.org.cn}}
-  - {name: 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s85.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz, server: 9efede7af382b243af2de71d7faad3a7.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s98.haierzykt.top}}
-  - {name: 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz, server: bcbeb7f4d075c3e2d527a2345c9f8913.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s99.xiaojiao.org.cn}}
-  - {name: 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz, server: 23ee5e5a585a14b684f9e505ae250bfa.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s218.xiaojiao.org.cn}}
-  - {name: 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz, server: a35e186cda75f96e3a1016365d200262.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s189.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz, server: 23ee5e5a585a14b684f9e505ae250bfa.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s227.xiaojiao.org.cn}}
-  - {name: 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz, server: b24edd579a9edfeb9e9c143f24ebc38c.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s292.haierzykt.top}}
-  - {name: 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz, server: 80e0e8c87a7b6c0078503a5fe3069d06.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s299.haierzykt.top}}
-  - {name: 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz, server: 1cc6619e1abe7fd8a0cd7d4d4006dd78.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s83.tianyue888.com.cn}}
-  - {name: 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz, server: bcbeb7f4d075c3e2d527a2345c9f8913.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s168.xiaojiao.org.cn}}
-  - {name: 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz, server: 5162f799297db21f23f1f0b56df1f757.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s194.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz, server: b0ba6d735a5d7b914c463eade02a4d85.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s220.haierzykt.top}}
-  - {name: 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz, server: cd3e3dd05a1bda5ed3ecd2d0a871ca37.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s185.tianyue888.com.cn}}
-  - {name: 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz, server: 9efede7af382b243af2de71d7faad3a7.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s306.haierzykt.top}}
-  - {name: 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz, server: 8220928a3864284242ebf64487c5e387.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s66.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz, server: 71866e459dd4b4c307aa75b5c9c6d8a2.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s76.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz, server: fb9bec4a624cce4bafd6a12f856b408f.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s91.haierzykt.top}}
-  - {name: 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz, server: fb9bec4a624cce4bafd6a12f856b408f.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s294.haierzykt.top}}
-  - {name: 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz, server: 1e7d23e04ff0bd90d17de91870b642cf.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s303.haierzykt.top}}
-  - {name: 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz, server: b0ba6d735a5d7b914c463eade02a4d85.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s92.haierzykt.top}}
-  - {name: 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz, server: a9b0bf93003cfe6cc5a87b854b08859a.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s138.xiaojiao.org.cn}}
-  - {name: 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz, server: 00a7e1643a56b4e13d2a13d03399539c.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s228.xiaojiao.org.cn}}
-  - {name: 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz, server: 8220928a3864284242ebf64487c5e387.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s79.tianyue888.com.cn}}
-  - {name: 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz, server: 211a92b195aa6e912e26dd5a2bfd3adc.cfcn.icu, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s216.xiaojiao.org.cn}}
-  - {name: 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz, server: s210.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s210.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz, server: s86.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s86.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz, server: s201.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s201.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz, server: s225.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s225.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz, server: s62.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s62.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz, server: s97.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s97.snode.xyz}}
-  - {name: 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz, server: s41.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s41.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz, server: s96.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s96.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz, server: s50.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s50.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz, server: s84.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s84.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz, server: s219.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s219.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz, server: s226.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s226.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz, server: s211.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s211.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz, server: s46.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s46.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz, server: s37.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s37.snode.xyz}}
-  - {name: 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz, server: s278.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s278.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz, server: s204.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s204.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz, server: s87.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s87.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz, server: s68.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s68.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz, server: s217.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s217.snode.xyz}}
-  - {name: 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz, server: s296.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s296.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz, server: s202.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s202.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz, server: s88.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s88.snode.xyz}}
-  - {name: 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz, server: s293.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s293.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz, server: s64.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s64.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz, server: s213.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s213.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点, server: s209.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s209.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点, server: s72.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s72.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点, server: s205.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s205.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点, server: s207.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s207.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点, server: s203.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s203.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点, server: s58.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s58.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点, server: s82.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s82.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点, server: s206.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s206.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点, server: s212.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s212.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点, server: s215.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s215.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点, server: s59.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s59.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点, server: s73.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s73.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点, server: s90.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s90.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点, server: s224.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s224.snode.xyz}}
-  - {name: 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点, server: s297.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s297.snode.xyz}}
-  - {name: 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点, server: s302.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s302.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点, server: s74.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s74.snode.xyz}}
-  - {name: 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点, server: s301.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s301.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点, server: s63.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s63.snode.xyz}}
-  - {name: 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点, server: s70.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s70.snode.xyz}}
-  - {name: 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点, server: s307.snode.xyz, port: 443, type: vmess, uuid: ceffd22a-8322-3672-9283-cfbe63d4d2d0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s307.snode.xyz}}
-  - {name: 🇸🇬 新加坡A | 基础x1, server: 183.232.228.126, port: 30580, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇸🇬 新加坡B | 基础x1, server: 183.232.228.126, port: 30590, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇲 美国 加州 | 基础x1.5, server: 183.232.228.126, port: 30630, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇲 美国 圣何塞 | 基础x1, server: 183.232.228.126, port: 30570, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: baidu.com}}
-  - {name: 🇺🇲 美国 洛杉矶 | 基础x1, server: 183.232.228.126, port: 30600, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇰🇷 韩国A | 基础x1, server: 183.232.228.126, port: 30610, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr.huagee.xyz}}
-  - {name: 🇰🇷 韩国B | 基础x1, server: 183.232.228.126, port: 30620, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港A | 基础x1.5, server: 183.232.228.126, port: 30550, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港B | 基础x1.5, server: 183.232.228.126, port: 30560, type: vmess, uuid: e87c05ce-7431-3d57-b0d4-0b72815c4feb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -151,21 +60,15 @@ proxy-groups:
       - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
-      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
-      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
-      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
-      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
-      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇸🇬 新加坡A | 基础x1
+      - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本B | 基础x1
+      - 🇺🇲 美国 加州 | 基础x1.5
+      - 🇺🇲 美国 圣何塞 | 基础x1
+      - 🇺🇲 美国 洛杉矶 | 基础x1
+      - 🇰🇷 韩国A | 基础x1
+      - 🇭🇰 香港B | 基础x1.5
       - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
@@ -182,101 +85,16 @@ proxy-groups:
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
       - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
-      - 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz
-      - 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz
-      - 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡A | 基础x1
-      - 🇸🇬 新加坡B | 基础x1
-      - 🇺🇲 美国 加州 | 基础x1.5
-      - 🇺🇲 美国 圣何塞 | 基础x1
-      - 🇺🇲 美国 洛杉矶 | 基础x1
-      - 🇰🇷 韩国A | 基础x1
-      - 🇰🇷 韩国B | 基础x1
-      - 🇭🇰 香港A | 基础x1.5
-      - 🇭🇰 香港B | 基础x1.5
+      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
+      - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
+      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
+      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
+      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
+      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -289,21 +107,15 @@ proxy-groups:
       - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
-      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
-      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
-      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
-      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
-      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇸🇬 新加坡A | 基础x1
+      - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本B | 基础x1
+      - 🇺🇲 美国 加州 | 基础x1.5
+      - 🇺🇲 美国 圣何塞 | 基础x1
+      - 🇺🇲 美国 洛杉矶 | 基础x1
+      - 🇰🇷 韩国A | 基础x1
+      - 🇭🇰 香港B | 基础x1.5
       - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
@@ -320,101 +132,16 @@ proxy-groups:
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
       - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
-      - 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz
-      - 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz
-      - 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡A | 基础x1
-      - 🇸🇬 新加坡B | 基础x1
-      - 🇺🇲 美国 加州 | 基础x1.5
-      - 🇺🇲 美国 圣何塞 | 基础x1
-      - 🇺🇲 美国 洛杉矶 | 基础x1
-      - 🇰🇷 韩国A | 基础x1
-      - 🇰🇷 韩国B | 基础x1
-      - 🇭🇰 香港A | 基础x1.5
-      - 🇭🇰 香港B | 基础x1.5
+      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
+      - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
+      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
+      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
+      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
+      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -428,21 +155,15 @@ proxy-groups:
       - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
-      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
-      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
-      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
-      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
-      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇸🇬 新加坡A | 基础x1
+      - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本B | 基础x1
+      - 🇺🇲 美国 加州 | 基础x1.5
+      - 🇺🇲 美国 圣何塞 | 基础x1
+      - 🇺🇲 美国 洛杉矶 | 基础x1
+      - 🇰🇷 韩国A | 基础x1
+      - 🇭🇰 香港B | 基础x1.5
       - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
@@ -459,101 +180,16 @@ proxy-groups:
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
       - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
-      - 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz
-      - 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz
-      - 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡A | 基础x1
-      - 🇸🇬 新加坡B | 基础x1
-      - 🇺🇲 美国 加州 | 基础x1.5
-      - 🇺🇲 美国 圣何塞 | 基础x1
-      - 🇺🇲 美国 洛杉矶 | 基础x1
-      - 🇰🇷 韩国A | 基础x1
-      - 🇰🇷 韩国B | 基础x1
-      - 🇭🇰 香港A | 基础x1.5
-      - 🇭🇰 香港B | 基础x1.5
+      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
+      - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
+      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
+      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
+      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
+      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
   - name: 📲 电报信息
     type: select
     proxies:
@@ -566,21 +202,15 @@ proxy-groups:
       - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
-      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
-      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
-      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
-      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
-      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇸🇬 新加坡A | 基础x1
+      - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本B | 基础x1
+      - 🇺🇲 美国 加州 | 基础x1.5
+      - 🇺🇲 美国 圣何塞 | 基础x1
+      - 🇺🇲 美国 洛杉矶 | 基础x1
+      - 🇰🇷 韩国A | 基础x1
+      - 🇭🇰 香港B | 基础x1.5
       - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
@@ -597,101 +227,16 @@ proxy-groups:
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
       - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
-      - 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz
-      - 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz
-      - 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡A | 基础x1
-      - 🇸🇬 新加坡B | 基础x1
-      - 🇺🇲 美国 加州 | 基础x1.5
-      - 🇺🇲 美国 圣何塞 | 基础x1
-      - 🇺🇲 美国 洛杉矶 | 基础x1
-      - 🇰🇷 韩国A | 基础x1
-      - 🇰🇷 韩国B | 基础x1
-      - 🇭🇰 香港A | 基础x1.5
-      - 🇭🇰 香港B | 基础x1.5
+      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
+      - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
+      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
+      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
+      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
+      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -704,21 +249,15 @@ proxy-groups:
       - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
-      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
-      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
-      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
-      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
-      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇸🇬 新加坡A | 基础x1
+      - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本B | 基础x1
+      - 🇺🇲 美国 加州 | 基础x1.5
+      - 🇺🇲 美国 圣何塞 | 基础x1
+      - 🇺🇲 美国 洛杉矶 | 基础x1
+      - 🇰🇷 韩国A | 基础x1
+      - 🇭🇰 香港B | 基础x1.5
       - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
@@ -735,101 +274,16 @@ proxy-groups:
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
       - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
-      - 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz
-      - 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz
-      - 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡A | 基础x1
-      - 🇸🇬 新加坡B | 基础x1
-      - 🇺🇲 美国 加州 | 基础x1.5
-      - 🇺🇲 美国 圣何塞 | 基础x1
-      - 🇺🇲 美国 洛杉矶 | 基础x1
-      - 🇰🇷 韩国A | 基础x1
-      - 🇰🇷 韩国B | 基础x1
-      - 🇭🇰 香港A | 基础x1.5
-      - 🇭🇰 香港B | 基础x1.5
+      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
+      - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
+      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
+      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
+      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
+      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -842,21 +296,15 @@ proxy-groups:
       - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
-      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
-      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
-      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
-      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
-      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇸🇬 新加坡A | 基础x1
+      - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本B | 基础x1
+      - 🇺🇲 美国 加州 | 基础x1.5
+      - 🇺🇲 美国 圣何塞 | 基础x1
+      - 🇺🇲 美国 洛杉矶 | 基础x1
+      - 🇰🇷 韩国A | 基础x1
+      - 🇭🇰 香港B | 基础x1.5
       - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
@@ -873,101 +321,16 @@ proxy-groups:
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
       - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
-      - 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz
-      - 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz
-      - 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡A | 基础x1
-      - 🇸🇬 新加坡B | 基础x1
-      - 🇺🇲 美国 加州 | 基础x1.5
-      - 🇺🇲 美国 圣何塞 | 基础x1
-      - 🇺🇲 美国 洛杉矶 | 基础x1
-      - 🇰🇷 韩国A | 基础x1
-      - 🇰🇷 韩国B | 基础x1
-      - 🇭🇰 香港A | 基础x1.5
-      - 🇭🇰 香港B | 基础x1.5
+      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
+      - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
+      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
+      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
+      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
+      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -981,21 +344,15 @@ proxy-groups:
       - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
-      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
-      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
-      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
-      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
-      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇸🇬 新加坡A | 基础x1
+      - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本B | 基础x1
+      - 🇺🇲 美国 加州 | 基础x1.5
+      - 🇺🇲 美国 圣何塞 | 基础x1
+      - 🇺🇲 美国 洛杉矶 | 基础x1
+      - 🇰🇷 韩国A | 基础x1
+      - 🇭🇰 香港B | 基础x1.5
       - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
@@ -1012,101 +369,16 @@ proxy-groups:
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
       - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
-      - 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz
-      - 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz
-      - 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡A | 基础x1
-      - 🇸🇬 新加坡B | 基础x1
-      - 🇺🇲 美国 加州 | 基础x1.5
-      - 🇺🇲 美国 圣何塞 | 基础x1
-      - 🇺🇲 美国 洛杉矶 | 基础x1
-      - 🇰🇷 韩国A | 基础x1
-      - 🇰🇷 韩国B | 基础x1
-      - 🇭🇰 香港A | 基础x1.5
-      - 🇭🇰 香港B | 基础x1.5
+      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
+      - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
+      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
+      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
+      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
+      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1136,21 +408,15 @@ proxy-groups:
       - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
       - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
-      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
-      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
-      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
-      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
-      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🇭🇰 香港5 | HKT | 临时直连 | 奈飞 B站 [原生 2.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇸🇬 新加坡A | 基础x1
+      - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本B | 基础x1
+      - 🇺🇲 美国 加州 | 基础x1.5
+      - 🇺🇲 美国 圣何塞 | 基础x1
+      - 🇺🇲 美国 洛杉矶 | 基础x1
+      - 🇰🇷 韩国A | 基础x1
+      - 🇭🇰 香港B | 基础x1.5
       - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
@@ -1167,101 +433,16 @@ proxy-groups:
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
       - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
-      - 🇭🇰 香港 网飞->武汉联通#69|倍率2.5|等级8|在线8人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津移动#61|倍率6.3|等级8|在线15人|158G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#60|倍率1.2|等级8|在线10人|166G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->天津移动#186|倍率5|等级7|在线18人|199G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#208|倍率5.2|等级7|在线14人|193G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#45|倍率0.9|等级7|在线12人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#295|倍率1.4|等级7|在线13人|184G|v2.freeok.xyz
-      - 🇯🇵 日本 东京 加速 ->天津移动#42|倍率5|等级6|在线10人|273G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->广州移动#170|倍率5|等级6|在线16人|248G|v2.freeok.xyz
-      - 🇯🇵 日本 加速 ->济南联通#214|倍率5|等级6|在线18人|270G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->济南联通#94|倍率5.1|等级6|在线15人|167G|v2.freeok.xyz
-      - 🇭🇰 香港 加速 网飞->天津联通#48|倍率1|等级6|在线14人|140G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#71|倍率1.3|等级6|在线21人|173G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#283|倍率4.5|等级5|在线6人|144G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#93|倍率3.2|等级5|在线6人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->武汉联通#85|倍率2.1|等级5|在线7人|67G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津移动#98|倍率2.8|等级5|在线7人|88G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->石家庄联通#99|倍率2.2|等级5|在线7人|77G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#218|倍率2.1|等级5|在线7人|74G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->武汉联通#189|倍率4.3|等级5|在线8人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州移动#227|倍率3.3|等级5|在线8人|122G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->重庆联通#292|倍率2.6|等级5|在线9人|89G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->无锡移动#299|倍率3.7|等级5|在线9人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#83|倍率2.3|等级5|在线9人|84G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->石家庄联通#168|倍率4.1|等级5|在线9人|124G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->重庆联通#194|倍率2.3|等级5|在线9人|100G|v2.freeok.xyz
-      - 🇭🇰 香港 加速->天津联通#220|倍率2.4|等级5|在线9人|75G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞 加速->天津联通#185|倍率2.7|等级5|在线10人|90G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->天津移动#306|倍率2.3|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#66|倍率2.5|等级5|在线11人|79G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#76|倍率2.9|等级5|在线11人|94G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->广州联通#91|倍率3.4|等级5|在线11人|115G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州联通#294|倍率3|等级5|在线12人|102G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞->广州移动#303|倍率4|等级5|在线12人|151G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->天津联通#92|倍率2.7|等级5|在线12人|96G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞 加速->无锡移动#138|倍率2.2|等级5|在线12人|73G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->天津移动#228|倍率2|等级5|在线12人|69G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->广州联通#79|倍率2.8|等级5|在线13人|101G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞->武汉联通#216|倍率2.1|等级5|在线19人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#210|倍率0.9|等级4|在线9人|135G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#86|倍率1|等级4|在线10人|127G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#201|倍率1.1|等级4|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#225|倍率0.8|等级4|在线11人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#62|倍率1.3|等级4|在线13人|159G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#97|倍率0.9|等级4|在线13人|111G|v2.freeok.xyz
-      - 🇭🇰 香港#41|倍率1|等级3|在线6人|124G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#96|倍率1|等级3|在线7人|133G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#50|倍率1|等级3|在线8人|121G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#84|倍率0.7|等级3|在线10人|86G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#219|倍率0.9|等级3|在线10人|107G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#226|倍率1|等级3|在线10人|143G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#211|倍率1|等级3|在线11人|120G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#46|倍率0.9|等级3|在线14人|116G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#37|倍率1.3|等级3|在线16人|151G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#278|倍率0.7|等级3|在线20人|99G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#204|倍率1|等级2|在线5人|117G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#87|倍率0.8|等级2|在线6人|106G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#68|倍率0.6|等级2|在线7人|76G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#217|倍率0.9|等级2|在线8人|123G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#296|倍率0.9|等级2|在线11人|114G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#202|倍率0.6|等级2|在线11人|80G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#88|倍率0.5|等级2|在线12人|68G|v2.freeok.xyz
-      - 🇸🇬 新加坡 网飞#293|倍率0.7|等级2|在线13人|102G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#64|倍率1.3|等级2|在线13人|154G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#213|倍率0.4|等级2|在线15人|70G|v2.freeok.xyz
-      - 🇭🇰 香港 网飞#209|倍率0.9|等级1|在线7人|114G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#72|倍率0.9|等级1|在线8人|120G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#205|倍率0.8|等级1|在线8人|98G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#207|倍率0.6|等级1|在线8人|74G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#203|倍率0.9|等级1|在线9人|111G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#58|倍率0.9|等级1|在线11人|108G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#82|倍率0.7|等级1|在线11人|99G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#206|倍率0.6|等级1|在线11人|78G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#212|倍率1.4|等级1|在线12人|184G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#215|倍率0.7|等级1|在线12人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#59|倍率1|等级1|在线13人|128G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#73|倍率1|等级1|在线13人|138G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#90|倍率1.3|等级1|在线13人|166G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#224|倍率1|等级1|在线13人|142G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#297|倍率0.6|等级1|在线15人|78G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#302|倍率0.9|等级1|在线15人|115G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#74|倍率1|等级1|在线15人|137G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#301|倍率0.9|等级1|在线16人|117G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#63|倍率1|等级1|在线16人|130G|v2.freeok.xyz|公益节点
-      - 🇭🇰 香港 网飞#70|倍率1.2|等级1|在线16人|149G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡 网飞#307|倍率1.2|等级1|在线17人|154G|v2.freeok.xyz|公益节点
-      - 🇸🇬 新加坡A | 基础x1
-      - 🇸🇬 新加坡B | 基础x1
-      - 🇺🇲 美国 加州 | 基础x1.5
-      - 🇺🇲 美国 圣何塞 | 基础x1
-      - 🇺🇲 美国 洛杉矶 | 基础x1
-      - 🇰🇷 韩国A | 基础x1
-      - 🇰🇷 韩国B | 基础x1
-      - 🇭🇰 香港A | 基础x1.5
-      - 🇭🇰 香港B | 基础x1.5
+      - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
+      - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
+      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
+      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
+      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
+      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
