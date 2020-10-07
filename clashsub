@@ -5,26 +5,33 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇨🇳 台湾 | 基础x1.5, server: sqcu1.beervm.xyz, port: 20700, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 新加坡A | 基础x1, server: 183.232.228.126, port: 30580, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 新加坡B | 基础x1, server: 183.232.228.126, port: 30590, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇯🇵 日本A | 基础x1, server: sqcu2.beervm.xyz, port: 20720, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇯🇵 日本B | 基础x1, server: sqcu2.beervm.xyz, port: 20730, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇲 美国 加州 | 基础x1.5, server: 183.232.228.126, port: 30630, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇲 美国 圣何塞 | 基础x1, server: 183.232.228.126, port: 30570, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: baidu.com}}
+  - {name: 🇺🇲 美国 洛杉矶 | 基础x1, server: 183.232.228.126, port: 30600, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇰🇷 韩国A | 基础x1, server: 183.232.228.126, port: 30610, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr.huagee.xyz}}
+  - {name: 🇰🇷 韩国B | 基础x1, server: 183.232.228.126, port: 30620, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港A | 基础x1.5, server: 183.232.228.126, port: 30550, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港B | 基础x1.5, server: 183.232.228.126, port: 30560, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
   - {name: 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x, server: 45.89.228.227, port: 1080, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.89.228.227}}
   - {name: 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x, server: 45.130.147.252, port: 1080, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.130.147.252}}
+  - {name: 🇯🇵 日本◆AWS 01 Netflix 1x, server: aff68a19be87ae9d1.awsglobalaccelerator.com, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aff68a19be87ae9d1.awsglobalaccelerator.com}}
+  - {name: 🇯🇵 日本◆AWS 02 Netflix 1x, server: a30b2e79edf87802c.awsglobalaccelerator.com, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a30b2e79edf87802c.awsglobalaccelerator.com}}
+  - {name: 🇭🇰 香港◆AWS 01 Netflix 1x, server: a4503e35e955a220f.awsglobalaccelerator.com, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a4503e35e955a220f.awsglobalaccelerator.com}}
+  - {name: 🇭🇰 香港◆AWS 02 Netflix 1x, server: aca4f39534097612d.awsglobalaccelerator.com, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aca4f39534097612d.awsglobalaccelerator.com}}
   - {name: 🇭🇰 香港◆HKT 01 PPCW Netflix 1x, server: 202.81.231.118, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.81.231.118}}
   - {name: 🇭🇰 香港◆HKT 02 PPCW Netflix 1x, server: 202.81.231.189, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.81.231.189}}
   - {name: 🇭🇰 香港◆HKT 03 PPCW Netflix 1x, server: 202.81.237.172, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.81.237.172}}
   - {name: 🇭🇰 香港◆HKT 04 PPCW Netflix 1x, server: 202.81.237.156, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.81.237.156}}
   - {name: 🇭🇰 香港◆HKT 05 PPCW Netflix 1x, server: 202.81.237.162, port: 80, type: vmess, uuid: 39265bd3-7725-34db-aed8-072b97ed788c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.81.237.162}}
-  - {name: 🇸🇬 新加坡A | 基础x1, server: 183.232.228.126, port: 30580, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇸🇬 新加坡B | 基础x1, server: 183.232.228.126, port: 30590, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇯🇵 日本B | 基础x1, server: sqcu1.beervm.xyz, port: 20730, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇲 美国 加州 | 基础x1.5, server: 183.232.228.126, port: 30630, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇲 美国 圣何塞 | 基础x1, server: 183.232.228.126, port: 30570, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: baidu.com}}
-  - {name: 🇺🇲 美国 洛杉矶 | 基础x1, server: 183.232.228.126, port: 30600, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇰🇷 韩国A | 基础x1, server: 183.232.228.126, port: 30610, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr.huagee.xyz}}
-  - {name: 🇭🇰 香港B | 基础x1.5, server: 183.232.228.126, port: 30560, type: vmess, uuid: 9d8ee2bd-a318-3f3e-9284-97733185e355, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix", server: iepl-szhk1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /iepl/szhk1/hk2, ws-headers: {Host: iepl-szhk1.racernet.link}}
+  - {name: "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix", server: iepl-szhk1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /iepl/szhk1/hk3, ws-headers: {Host: iepl-szhk1.racernet.link}}
   - {name: 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray, server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/de1, ws-headers: {Host: ctsh2.racernet.link}}
   - {name: "🇯🇵 【VIP】上海电信-日本 #2|Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/jp2, ws-headers: {Host: ctsh2.racernet.link}}
   - {name: "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/us5, ws-headers: {Host: ctsh2.racernet.link}}
-  - {name: "🇭🇰 【VIP】上海电信➜香港 #1 Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk2, ws-headers: {Host: ctsh2.racernet.link}}
   - {name: "🇭🇰 【VIP】上海电信➜香港 #3|Netflix", server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk3, ws-headers: {Host: ctsh2.racernet.link}}
   - {name: 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix, server: ctsh2.racernet.link, port: 22080, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ct/sh2/hk1, ws-headers: {Host: ctsh2.racernet.link}}
   - {name: "🇮🇳 【VIP】徐州联通➜印度 #1", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/in1, ws-headers: {Host: cuxz1.racernet.link}}
@@ -33,53 +40,54 @@ proxies:
   - {name: "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/jp2, ws-headers: {Host: cuxz1.racernet.link}}
   - {name: "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix", server: cuxz1.racernet.link, port: 10443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cu/xz1/us5, ws-headers: {Host: cuxz1.racernet.link}}
   - {name: "🇭🇰 【VIP】河南移动➜香港 #3|Netflix", server: cmhn1.racernet.link, port: 15443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /cm/hn1/hk3, ws-headers: {Host: cmhn1.racernet.link}}
-  - {name: "🇺🇲 【VIP】美国-GIA #1|V2ray", server: us4.racernet.link, port: 443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: us4.racernet.link}}
   - {name: "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix", server: hk3.racernet.link, port: 443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: hk3.racernet.link}}
-  - {name: 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix, server: hk2.racernet.link, port: 443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /racernet, ws-headers: {Host: hk2.racernet.link}}
   - {name: "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray", server: us2.racernet.link, port: 443, type: vmess, uuid: 16e5b80d-ce60-3378-b1b8-c4f34c2b6ad2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /eewgzpep, ws-headers: {Host: us2.racernet.link}}
+  - {name: "🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]", server: 210.71.231.15, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]", server: aga.franxx.live, port: 20005, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]", server: 178.128.81.84, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]", server: 183.240.139.218, port: 20002, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false}
+  - {name: "🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]", server: 122.192.189.40, port: 10113, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]", server: aga.franxx.live, port: 20007, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
+  - {name: "🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]", server: 122.192.189.40, port: 10112, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
+  - {name: "🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]", server: 76.223.70.50, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
+  - {name: "🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]", server: aga.franxx.live, port: 20008, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
+  - {name: "🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]", server: 45.77.217.210, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]", server: 85.208.155.249, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]", server: 23.99.107.90, port: 30726, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]", server: aga.franxx.live, port: 20006, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
+  - {name: "🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]", server: 85.208.155.174, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
   - {name: "🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]", server: aga.franxx.live, port: 20004, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]", server: 156.253.71.123, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
-  - {name: "🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]", server: 183.240.139.218, port: 20001, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾 Hinet 1 台区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hinet1, ws-headers: {Host: v2.freeairport.top}}
-  - {name: 🇨🇳 台湾 Hinet 2 台区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hinet2, ws-headers: {Host: v2.freeairport.top}}
-  - {name: 🇯🇵 日本 NHN 1 日区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /nhnjp1, ws-headers: {Host: v2.freeairport.top}}
-  - {name: 🇯🇵 日本 NHN 2 日区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /nhnjp2, ws-headers: {Host: v2.freeairport.top}}
-  - {name: 🇯🇵 日本 NHN 5 日区流媒体, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /nhnjp5, ws-headers: {Host: v2.freeairport.top}}
-  - {name: 🇭🇰 香港 Azure 1, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /azhk1, ws-headers: {Host: v2.freeairport.top}}
-  - {name: 🇭🇰 香港 Azure 2, server: v2.freeairport.top, port: 40000, type: vmess, uuid: 11e4c353-bf82-3323-9407-e98ec2a524e9, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /azhk2, ws-headers: {Host: v2.freeairport.top}}
+  - {name: "🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]", server: aga2.franxx.live, port: 7896, type: vmess, uuid: 6170472d-e35e-3cda-9b06-353e16194241, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /franxx, ws-headers: {Host: www.microsoft.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
-      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
-      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - 🇨🇳 台湾 | 基础x1.5
       - 🇸🇬 新加坡A | 基础x1
       - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本A | 基础x1
       - 🇯🇵 日本B | 基础x1
       - 🇺🇲 美国 加州 | 基础x1.5
       - 🇺🇲 美国 圣何塞 | 基础x1
       - 🇺🇲 美国 洛杉矶 | 基础x1
       - 🇰🇷 韩国A | 基础x1
+      - 🇰🇷 韩国B | 基础x1
+      - 🇭🇰 香港A | 基础x1.5
       - 🇭🇰 香港B | 基础x1.5
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
+      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
+      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
-      - "🇭🇰 【VIP】上海电信➜香港 #1 Netflix"
       - "🇭🇰 【VIP】上海电信➜香港 #3|Netflix"
       - 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix
       - "🇮🇳 【VIP】徐州联通➜印度 #1"
@@ -88,52 +96,53 @@ proxy-groups:
       - "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix"
       - "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix"
       - "🇭🇰 【VIP】河南移动➜香港 #3|Netflix"
-      - "🇺🇲 【VIP】美国-GIA #1|V2ray"
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
-      - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
+      - 🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]
       - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
       - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]
       - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
+      - 🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]
+      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
+      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
       - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇨🇳 台湾 Hinet 1 台区流媒体
-      - 🇨🇳 台湾 Hinet 2 台区流媒体
-      - 🇯🇵 日本 NHN 1 日区流媒体
-      - 🇯🇵 日本 NHN 2 日区流媒体
-      - 🇯🇵 日本 NHN 5 日区流媒体
-      - 🇭🇰 香港 Azure 1
-      - 🇭🇰 香港 Azure 2
+      - 🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
-      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
-      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - 🇨🇳 台湾 | 基础x1.5
       - 🇸🇬 新加坡A | 基础x1
       - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本A | 基础x1
       - 🇯🇵 日本B | 基础x1
       - 🇺🇲 美国 加州 | 基础x1.5
       - 🇺🇲 美国 圣何塞 | 基础x1
       - 🇺🇲 美国 洛杉矶 | 基础x1
       - 🇰🇷 韩国A | 基础x1
+      - 🇰🇷 韩国B | 基础x1
+      - 🇭🇰 香港A | 基础x1.5
       - 🇭🇰 香港B | 基础x1.5
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
+      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
+      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
-      - "🇭🇰 【VIP】上海电信➜香港 #1 Netflix"
       - "🇭🇰 【VIP】上海电信➜香港 #3|Netflix"
       - 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix
       - "🇮🇳 【VIP】徐州联通➜印度 #1"
@@ -142,53 +151,54 @@ proxy-groups:
       - "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix"
       - "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix"
       - "🇭🇰 【VIP】河南移动➜香港 #3|Netflix"
-      - "🇺🇲 【VIP】美国-GIA #1|V2ray"
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
-      - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
+      - 🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]
       - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
       - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]
       - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
+      - 🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]
+      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
+      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
       - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇨🇳 台湾 Hinet 1 台区流媒体
-      - 🇨🇳 台湾 Hinet 2 台区流媒体
-      - 🇯🇵 日本 NHN 1 日区流媒体
-      - 🇯🇵 日本 NHN 2 日区流媒体
-      - 🇯🇵 日本 NHN 5 日区流媒体
-      - 🇭🇰 香港 Azure 1
-      - 🇭🇰 香港 Azure 2
+      - 🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
-      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
-      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - 🇨🇳 台湾 | 基础x1.5
       - 🇸🇬 新加坡A | 基础x1
       - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本A | 基础x1
       - 🇯🇵 日本B | 基础x1
       - 🇺🇲 美国 加州 | 基础x1.5
       - 🇺🇲 美国 圣何塞 | 基础x1
       - 🇺🇲 美国 洛杉矶 | 基础x1
       - 🇰🇷 韩国A | 基础x1
+      - 🇰🇷 韩国B | 基础x1
+      - 🇭🇰 香港A | 基础x1.5
       - 🇭🇰 香港B | 基础x1.5
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
+      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
+      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
-      - "🇭🇰 【VIP】上海电信➜香港 #1 Netflix"
       - "🇭🇰 【VIP】上海电信➜香港 #3|Netflix"
       - 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix
       - "🇮🇳 【VIP】徐州联通➜印度 #1"
@@ -197,52 +207,53 @@ proxy-groups:
       - "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix"
       - "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix"
       - "🇭🇰 【VIP】河南移动➜香港 #3|Netflix"
-      - "🇺🇲 【VIP】美国-GIA #1|V2ray"
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
-      - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
+      - 🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]
       - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
       - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]
       - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
+      - 🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]
+      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
+      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
       - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇨🇳 台湾 Hinet 1 台区流媒体
-      - 🇨🇳 台湾 Hinet 2 台区流媒体
-      - 🇯🇵 日本 NHN 1 日区流媒体
-      - 🇯🇵 日本 NHN 2 日区流媒体
-      - 🇯🇵 日本 NHN 5 日区流媒体
-      - 🇭🇰 香港 Azure 1
-      - 🇭🇰 香港 Azure 2
+      - 🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
-      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
-      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - 🇨🇳 台湾 | 基础x1.5
       - 🇸🇬 新加坡A | 基础x1
       - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本A | 基础x1
       - 🇯🇵 日本B | 基础x1
       - 🇺🇲 美国 加州 | 基础x1.5
       - 🇺🇲 美国 圣何塞 | 基础x1
       - 🇺🇲 美国 洛杉矶 | 基础x1
       - 🇰🇷 韩国A | 基础x1
+      - 🇰🇷 韩国B | 基础x1
+      - 🇭🇰 香港A | 基础x1.5
       - 🇭🇰 香港B | 基础x1.5
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
+      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
+      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
-      - "🇭🇰 【VIP】上海电信➜香港 #1 Netflix"
       - "🇭🇰 【VIP】上海电信➜香港 #3|Netflix"
       - 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix
       - "🇮🇳 【VIP】徐州联通➜印度 #1"
@@ -251,52 +262,53 @@ proxy-groups:
       - "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix"
       - "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix"
       - "🇭🇰 【VIP】河南移动➜香港 #3|Netflix"
-      - "🇺🇲 【VIP】美国-GIA #1|V2ray"
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
-      - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
+      - 🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]
       - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
       - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]
       - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
+      - 🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]
+      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
+      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
       - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇨🇳 台湾 Hinet 1 台区流媒体
-      - 🇨🇳 台湾 Hinet 2 台区流媒体
-      - 🇯🇵 日本 NHN 1 日区流媒体
-      - 🇯🇵 日本 NHN 2 日区流媒体
-      - 🇯🇵 日本 NHN 5 日区流媒体
-      - 🇭🇰 香港 Azure 1
-      - 🇭🇰 香港 Azure 2
+      - 🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
-      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
-      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - 🇨🇳 台湾 | 基础x1.5
       - 🇸🇬 新加坡A | 基础x1
       - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本A | 基础x1
       - 🇯🇵 日本B | 基础x1
       - 🇺🇲 美国 加州 | 基础x1.5
       - 🇺🇲 美国 圣何塞 | 基础x1
       - 🇺🇲 美国 洛杉矶 | 基础x1
       - 🇰🇷 韩国A | 基础x1
+      - 🇰🇷 韩国B | 基础x1
+      - 🇭🇰 香港A | 基础x1.5
       - 🇭🇰 香港B | 基础x1.5
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
+      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
+      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
-      - "🇭🇰 【VIP】上海电信➜香港 #1 Netflix"
       - "🇭🇰 【VIP】上海电信➜香港 #3|Netflix"
       - 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix
       - "🇮🇳 【VIP】徐州联通➜印度 #1"
@@ -305,52 +317,53 @@ proxy-groups:
       - "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix"
       - "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix"
       - "🇭🇰 【VIP】河南移动➜香港 #3|Netflix"
-      - "🇺🇲 【VIP】美国-GIA #1|V2ray"
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
-      - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
+      - 🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]
       - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
       - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]
       - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
+      - 🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]
+      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
+      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
       - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇨🇳 台湾 Hinet 1 台区流媒体
-      - 🇨🇳 台湾 Hinet 2 台区流媒体
-      - 🇯🇵 日本 NHN 1 日区流媒体
-      - 🇯🇵 日本 NHN 2 日区流媒体
-      - 🇯🇵 日本 NHN 5 日区流媒体
-      - 🇭🇰 香港 Azure 1
-      - 🇭🇰 香港 Azure 2
+      - 🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
-      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
-      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - 🇨🇳 台湾 | 基础x1.5
       - 🇸🇬 新加坡A | 基础x1
       - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本A | 基础x1
       - 🇯🇵 日本B | 基础x1
       - 🇺🇲 美国 加州 | 基础x1.5
       - 🇺🇲 美国 圣何塞 | 基础x1
       - 🇺🇲 美国 洛杉矶 | 基础x1
       - 🇰🇷 韩国A | 基础x1
+      - 🇰🇷 韩国B | 基础x1
+      - 🇭🇰 香港A | 基础x1.5
       - 🇭🇰 香港B | 基础x1.5
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
+      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
+      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
-      - "🇭🇰 【VIP】上海电信➜香港 #1 Netflix"
       - "🇭🇰 【VIP】上海电信➜香港 #3|Netflix"
       - 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix
       - "🇮🇳 【VIP】徐州联通➜印度 #1"
@@ -359,53 +372,54 @@ proxy-groups:
       - "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix"
       - "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix"
       - "🇭🇰 【VIP】河南移动➜香港 #3|Netflix"
-      - "🇺🇲 【VIP】美国-GIA #1|V2ray"
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
-      - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
+      - 🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]
       - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
       - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]
       - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
+      - 🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]
+      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
+      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
       - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇨🇳 台湾 Hinet 1 台区流媒体
-      - 🇨🇳 台湾 Hinet 2 台区流媒体
-      - 🇯🇵 日本 NHN 1 日区流媒体
-      - 🇯🇵 日本 NHN 2 日区流媒体
-      - 🇯🇵 日本 NHN 5 日区流媒体
-      - 🇭🇰 香港 Azure 1
-      - 🇭🇰 香港 Azure 2
+      - 🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
-      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
-      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - 🇨🇳 台湾 | 基础x1.5
       - 🇸🇬 新加坡A | 基础x1
       - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本A | 基础x1
       - 🇯🇵 日本B | 基础x1
       - 🇺🇲 美国 加州 | 基础x1.5
       - 🇺🇲 美国 圣何塞 | 基础x1
       - 🇺🇲 美国 洛杉矶 | 基础x1
       - 🇰🇷 韩国A | 基础x1
+      - 🇰🇷 韩国B | 基础x1
+      - 🇭🇰 香港A | 基础x1.5
       - 🇭🇰 香港B | 基础x1.5
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
+      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
+      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
-      - "🇭🇰 【VIP】上海电信➜香港 #1 Netflix"
       - "🇭🇰 【VIP】上海电信➜香港 #3|Netflix"
       - 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix
       - "🇮🇳 【VIP】徐州联通➜印度 #1"
@@ -414,27 +428,21 @@ proxy-groups:
       - "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix"
       - "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix"
       - "🇭🇰 【VIP】河南移动➜香港 #3|Netflix"
-      - "🇺🇲 【VIP】美国-GIA #1|V2ray"
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
-      - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
+      - 🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]
       - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
       - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]
       - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
+      - 🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]
+      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
+      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
       - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇨🇳 台湾 Hinet 1 台区流媒体
-      - 🇨🇳 台湾 Hinet 2 台区流媒体
-      - 🇯🇵 日本 NHN 1 日区流媒体
-      - 🇯🇵 日本 NHN 2 日区流媒体
-      - 🇯🇵 日本 NHN 5 日区流媒体
-      - 🇭🇰 香港 Azure 1
-      - 🇭🇰 香港 Azure 2
+      - 🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -457,26 +465,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
-      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
-      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
-      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - 🇨🇳 台湾 | 基础x1.5
       - 🇸🇬 新加坡A | 基础x1
       - 🇸🇬 新加坡B | 基础x1
+      - 🇯🇵 日本A | 基础x1
       - 🇯🇵 日本B | 基础x1
       - 🇺🇲 美国 加州 | 基础x1.5
       - 🇺🇲 美国 圣何塞 | 基础x1
       - 🇺🇲 美国 洛杉矶 | 基础x1
       - 🇰🇷 韩国A | 基础x1
+      - 🇰🇷 韩国B | 基础x1
+      - 🇭🇰 香港A | 基础x1.5
       - 🇭🇰 香港B | 基础x1.5
-      - "🏳️‍🌈 【VIP】IEPL 深港专线 #1|5x流量|Netflix"
+      - 🇷🇺 俄罗斯◆RU 01 伯力 Netflix 2x
+      - 🇷🇺 俄罗斯◆RU 02 伯力 Netflix 2x
+      - 🇯🇵 日本◆AWS 01 Netflix 1x
+      - 🇯🇵 日本◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆AWS 01 Netflix 1x
+      - 🇭🇰 香港◆AWS 02 Netflix 1x
+      - 🇭🇰 香港◆HKT 01 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 02 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 03 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 04 PPCW Netflix 1x
+      - 🇭🇰 香港◆HKT 05 PPCW Netflix 1x
+      - "🏳️‍🌈 【VIP】IEPL 深港专线 #3|5x流量|Netflix"
       - 🇩🇪 【VIP】上海电信-德国|Netflix|V2ray
       - "🇯🇵 【VIP】上海电信-日本 #2|Netflix"
       - "🇺🇲 【VIP】上海电信-美国 #2|Netflix|V2ray"
-      - "🇭🇰 【VIP】上海电信➜香港 #1 Netflix"
       - "🇭🇰 【VIP】上海电信➜香港 #3|Netflix"
       - 🇭🇰 【VIP】上海电信➜香港 HKT|Netflix
       - "🇮🇳 【VIP】徐州联通➜印度 #1"
@@ -485,27 +500,21 @@ proxy-groups:
       - "🇯🇵 【VIP】徐州联通➜日本 #2|Netflix"
       - "🇺🇲 【VIP】徐州联通➜美国 #2|Netflix"
       - "🇭🇰 【VIP】河南移动➜香港 #3|Netflix"
-      - "🇺🇲 【VIP】美国-GIA #1|V2ray"
       - "🇭🇰 【VIP】香港 #3|HGC 线路|Netflix"
-      - 🇭🇰 【VIP】香港-阿里云|V2ray|Netflix
       - "🇬🇧 美国-CN2 GIA #2|英国 Netflix|V2ray"
+      - 🇨🇳 台湾1 | HINET | 临时直连 | 奈飞动画疯B站 [原生 2.0]
       - 🇩🇪 新加坡2 | LINODE | 适电信 [AGA 1.0]
       - 🇸🇬 新加坡3 | DO | 临时免费 [ 免费0.1]
-      - 🇩🇪 新加坡4 | LINODE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
+      - 🇯🇵 日本1 | VULTR | 徐州联通 [中继 1.0]
       - 🇯🇵 日本2 | AWS | 适电信 [AGA 1.0]
+      - 🇯🇵 日本4 | NHN | 徐州联通 | 奈飞 公主链接日服 [原生 2.0]
+      - 🇯🇵 日本5 | AWS | 电信看这里我超猛的 [AGA 0.1]
+      - 🇺🇲 美国1 | AWS | 适电信 [AGA 1.0]
+      - 🇹🇷 美国2 | VULTR | 临时直连 [中继 1.0]
       - 🇺🇲 美国5 | 安畅CN2GIA | 体验节点能用就行 [免费 1.0]
-      - 🇭🇰 香港1 | AZURE | 临时免费 | B站港区 [免费 0.1]
-      - 🇭🇰 香港2 | AWS | 适电信 | B站港区 [AGA 1.0]
+      - 🇺🇲 美国6 | 安畅CN2GIA | 随便用吧 [免费0.1]
       - 🇭🇰 香港4 | AWS | 适电信 | B站港区 [AGA 1.0]
-      - 🏳️‍🌈 香港6 | CN2GIA | 低带宽无限流量随便嫖 [免费 0.1]
-      - 🇭🇰 香港8 | AZURE | 深港IEPL | 低延迟适直播禁测速 [专线 5.0]
-      - 🇨🇳 台湾 Hinet 1 台区流媒体
-      - 🇨🇳 台湾 Hinet 2 台区流媒体
-      - 🇯🇵 日本 NHN 1 日区流媒体
-      - 🇯🇵 日本 NHN 2 日区流媒体
-      - 🇯🇵 日本 NHN 5 日区流媒体
-      - 🇭🇰 香港 Azure 1
-      - 🇭🇰 香港 Azure 2
+      - 🇭🇰 香港7 | AWS | 适电信 | B站港区 [AGA 1.0]
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
